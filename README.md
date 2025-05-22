@@ -34,7 +34,7 @@ It's particularly useful for cleaning up your "Downloads" folder or any other di
     ```
     Alternatively, just download/copy the `.py` script to your computer.
 
-2.  **Configure the Script (e.g., `file_organizer_v2_duplicates_en.py`):**
+2.  **Configure the Script (e.g., `file_organizer.py`):**
     * Open the script file with a text editor.
     * **IMPORTANT:** Modify the `SOURCE_DIRECTORY` variable to the absolute path of the directory you want to organize.
         ```python
@@ -59,7 +59,7 @@ It's particularly useful for cleaning up your "Downloads" folder or any other di
     ```
     For example:
     ```bash
-    python file_organizer_v2_duplicates_en.py
+    python file_organizer.py
     ```
     The script will ask for confirmation before starting the organization process.
 
@@ -67,7 +67,7 @@ It's particularly useful for cleaning up your "Downloads" folder or any other di
     * Files in your `SOURCE_DIRECTORY` will be moved into their respective subdirectories.
     * A log file named `file_organizer.log` will be created/updated in the same directory as the script, containing details of the operations.
 
-## Future Enhancements (Optional)
+## Future Enhancements
 
 * [ ] Read configuration from an external file (JSON/YAML).
 * [ ] Add a "Dry Run" option to preview changes without actually moving files.
