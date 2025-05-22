@@ -29,8 +29,8 @@ It's particularly useful for cleaning up your "Downloads" folder or any other di
 1.  **Clone or Download the Repository:**
     ```bash
     # If it's on GitHub:
-    # git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
-    # cd YOUR_REPOSITORY_NAME
+    # git clone [https://github.com/DavnFs/python-file-organizer.git)
+    # cd python-file-organizer
     ```
     Alternatively, just download/copy the `.py` script to your computer.
 
